@@ -1,238 +1,335 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Today</title>
+<html>
 
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+    <head>
+        <meta charset="UTF-8">
+        <title>Today Restaurant</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+    </head>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
-</head>
-<body>
+    <body>
 
-<!-- preloader section -->
-<section class="preloader">
-	<div class="sk-spinner sk-spinner-pulse"></div>
-</section>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Today Restaurant</a>
+                    </div>
 
-<!-- navigation section -->
-<section class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#" class="navbar-brand">Today</a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home">HOME</a></li>
-				<li><a href="#gallery">FOOD GALLERY</a></li>
-				<li><a href="#menu">SHOW COOKING</a></li>
-				<li><a href="#team">CHEFS</a></li>
-				<li><a href="#contact">CONTACT</a></li>
-			</ul>
-		</div>
-	</div>
-</section>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">WELCOME</a></li>
+                            <li><a class="color_animation" href="#story">ABOUT</a></li>
+                            <li><a class="color_animation" href="#pricing">PRICING</a></li>
+                            <li><a class="color_animation" href="#beer">Our Chef</a></li>
+                            <li><a class="color_animation" href="#bread">Cook Show</a></li>
+                            <li><a class="color_animation" href="#featured">FEATURED</a></li>
+                            <li><a class="color_animation" href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+         
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 class="top-title">Today Restaurant</h2>
+                    <h2 class="white second-title">" Best Buffet in Limassol "</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
 
+        <!-- ============ About Us ============= -->
 
-<!-- home section -->
-<section id="home" class="parallax-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<h1>TODAY RESTAURANT</h1>
-				<h2>ALL &amp; You can eat</h2>
-				
-			</div>
-		</div>
-	</div>		
-</section>
-
-
-<!-- gallery section -->
-<section id="gallery" class="parallax-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
-				<h1 class="heading">Food Gallery</h1>
-				<hr>
-			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
-				<a href="images/gallery-img1.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img1.jpg" alt="gallery img"></a>
-				<div>
-					<h3>Dessert</h3>
-					<span>Seafood / Shrimp / Lemon</span>
-				</div>
-				<a href="images/gallery-img2.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img2.jpg" alt="gallery img"></a>
-				<div>
-					<h3>Baker</h3>
-					<span>Tomato / Rosemary / Lemon</span>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<a href="images/gallery-img3.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img3.jpg" alt="gallery img"></a>
-				<div>
-					<h3>Sushi</h3>
-					<span>Bread / Rosemary / Orange</span>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-				<a href="images/gallery-img4.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img4.jpg" alt="gallery img"></a>
-				<div>
-					<h3>Dumplings</h3>
-					<span>Chicken / Rosemary / Green</span>
-				</div>
-				<a href="images/gallery-img5.jpg" data-lightbox-gallery="zenda-gallery"><img src="images/gallery-img5.jpg" alt="gallery img"></a>
-				<div>
-					<h3>Peking Duck</h3>
-					<span>Pasta / Rosemary / Green</span>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>About us</h1>
+                    <div class="fa fa-cutlery fa-2x"></div>
+                    <p class="desc-text">It is the time to taste as much sushi, starters, mains, desserts as you can from our Asian and International buffet. Enjoy our professional chefs from China and Japan preparing your fresh food in front of your eyes! Come join us and see what simplicity tastes like.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="images/gallery-img1.jpg" width="250" height="220">
+                       <img src="images/gallery-img2.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img src="images/gallery-img4.jpg"  width="250" height="220">
+                       <img src="images/gallery-img5.jpg"  width="250" height="220">
+                   </div>
+                </div>
+            </div>
+        </section>
 
 
-<!-- Video section -->
-<section id="menu" class="parallax-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
-				<h1 class="heading">Show Cooking</h1>
-				<hr>
-			</div>
-		</div>
-	</div>
-</section>		
+       <!-- ============ Pricing  ============= -->
 
 
-<!-- team section -->
-<section id="team" class="parallax-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
-				<h1 class="heading">Meet Today chefs</h1>
-				<hr>
-			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
-				<img src="images/team1.jpg" class="img-responsive center-block" alt="team img">
-				<h4>Stephan</h4>
-				<h3>Main Chef</h3>
-			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<img src="images/team2.jpg" class="img-responsive center-block" alt="team img">
-				<h4>Alesso</h4>
-				<h3>Baker</h3>
-			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-				<img src="images/team3.jpg" class="img-responsive center-block" alt="team img">
-				<h4>XXX</h4>
-				<h3>Sushi Specialist</h3>
-			</div>
-		</div>
-	</div>
-</section>
+        <section id ="pricing" class="description_content">
+             <div class="pricing background_content">
+                <h1><span>Affordable</span> pricing </h1>
+				<h1><span>15.95/19.95</span> Lunch/Dinner </h1>
+             </div>
+            <div class="text-content container"> 
+                <div class="container">
+                    <div class="row">
+                        <div id="w">
+                            <ul id="filter-list" class="clearfix">
+                                <li class="filter" data-filter="all">All</li>
+                                <li class="filter" data-filter="Salad">Salad</li>
+                                <li class="filter" data-filter="Sushi">Sushi</li>
+                                <li class="filter" data-filter="desert">Desert</li>
+                                <li class="filter" data-filter="Bake">Bake</li>
+                            </ul><!-- @end #filter-list -->    
+                            <ul id="portfolio">
+                                <li class="item Salad"><img src="images/food_icon01.jpg" alt="Food" >
+                                   
+                                </li>
+
+                                <li class="item Sushi "><img src="images/food_icon02.jpg" alt="Food" >
+                                   
+                                </li>
+                                <li class="item Salad "><img src="images/food_icon03.jpg" alt="Food" >
+                                  
+                                </li>
+                                <li class="item Sushi"><img src="images/food_icon04.jpg" alt="Food" >
+                                   
+                                </li>
+                                <li class="item desert"><img src="images/food_icon05.jpg" alt="Food" >
+                                   
+                                </li>
+                                <li class="item Bake"><img src="images/food_icon06.jpg" alt="Food" >
+                                   
+                                </li>
+                                <li class="item Bake"><img src="images/food_icon07.jpg" alt="Food" >
+                                   
+                                </li>
+                                <li class="item desert"><img src="images/food_icon08.jpg" alt="Food" >
+                                    
+                                </li>
+                            </ul><!-- @end #portfolio -->
+                        </div><!-- @end #w -->
+                    </div>
+                </div>
+            </div>  
+        </section>
 
 
-<!-- contact section -->
-<section id="contact" class="parallax-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-offset-1 col-md-10 col-sm-12 text-center">
-				<h1 class="heading">Contact Us</h1>
-				<hr>
-			</div>
-			<div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeIn" data-wow-delay="0.9s">
-				<form action="#" method="post">
-					<div class="col-md-6 col-sm-6">
-						<input name="name" type="text" class="form-control" id="name" placeholder="Name">
-				  </div>
-					<div class="col-md-6 col-sm-6">
-						<input name="email" type="email" class="form-control" id="email" placeholder="Email">
-				  </div>
-					<div class="col-md-12 col-sm-12">
-						<textarea name="message" rows="8" class="form-control" id="message" placeholder="Message"></textarea>
-					</div>
-					<div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
-						<input name="submit" type="submit" class="form-control" id="submit" value="make a reservation">
-					</div>
-				</form>
-			</div>
-			<div class="col-md-2 col-sm-1"></div>
-		</div>
-	</div>
-</section>
+        <!-- ============ Our Chef  ============= -->
 
 
-<!-- footer section -->
-<footer class="parallax-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<h2 class="heading">Contact Info.</h2>
-				<div class="ph">
-					<p><i class="fa fa-phone"></i> Phone</p>
-					<h4>PHONE</h4>
-				</div>
-				<div class="address">
-					<p><i class="fa fa-map-marker"></i> Our Location</p>
-					<h4>ADDRESS</h4>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<h2 class="heading">Open Hours</h2>
-					<p>Sunday <span>10:30 AM - 10:00 PM</span></p>
-					<p>Mon-Fri <span>9:00 AM - 8:00 PM</span></p>
-					<p>Saturday <span>11:30 AM - 10:00 PM</span></p>
-			</div>
-			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<h2 class="heading">Follow Us</h2>
-				<ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
-					<li><a href="#" class="fa fa-twitter wow bounceIn" data-wow-delay="0.6s"></a></li>
-					<li><a href="#" class="fa fa-behance wow bounceIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-dribbble wow bounceIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
+        <section id ="beer" class="description_content">
+            <div  class="beer background_content">
+                <h1>Great <span>Place</span> to enjoy</h1>
+				<h1><span>Birthday/Meeting/Marriage</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-5">
+                   <div class="img-section">
+                       <img src="images/beer_spec.jpg" width="100%">
+                   </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1>OUR CHEF</h1>
+                    <div class="icon-beer fa-2x"></div>
+                    <p class="desc-text">Here at Today Restaurant we’re all about the love of Chef. </p>
+                </div>
+            </div>
+        </section>
 
 
-<!-- copyright section -->
-<section id="copyright">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<h3>Today</h3>
-				<p>Copyright © Today Restaurant</p>
-			</div>
-		</div>
-	</div>
-</section>
+       <!-- ============ Our Bread  ============= -->
 
-<!-- JAVASCRIPT JS FILES -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
 
-</body>
+        <section id="bread" class=" description_content">
+            <div  class="bread background_content">
+                <h1>Our Child  <span>Playground</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>Cook Show</h1>
+                    <div class="icon-bread fa-2x"></div>
+                    <p class="desc-text">Enjoy our Chef cooking show</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/bread1.jpg" width="260" alt="Bread">
+                    <img src="images/bread1.jpg" width="260" alt="Bread">
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- ============ Featured Dish  ============= -->
+
+        <section id="featured" class="description_content">
+            <div  class="featured background_content">
+                <h1>Our Featured Dishes <span>Menu</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>Have a look to our dishes!</h1>
+                    <div class="icon-hotdog fa-2x"></div>
+                    <p class="desc-text">Each food is handmade at the crack of dawn, using only the simplest of ingredients to bring out smells and flavors that beckon the whole block. Stop by anytime and experience simplicity at its finest.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider2.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider3.JPG" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact  ============= -->
+
+        <section  id="contact"  class="description_content">
+            <div class="featured background_content">
+                <h1>Contact Us!</h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="reserve.php">
+                            <!-- Left Inputs -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
+                                               </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="number" name="phone" id="phone" required="required" class="form" placeholder="Phone" />
+                                              
+                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                                
+                                            </div>
+
+                                            <div class="col-xs-6 ">
+                                                <!-- Send Button -->
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Submit</button> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <!-- Message -->
+                                        <div class="right-text">
+                                            <h2>Hours</h2><hr>
+                                            <p>Tuesday to Sunday: 12:00 AM - 15:00 PM</p>
+                                         
+											<p>Tuesday to Sunday: 7:00 PM - 22:30 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->
+            </div>
+        </section>
+
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">FOLLOW</span>
+                    <ul class="social_icons">
+                        <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-facebook color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-linkedin color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-mail color_animation" href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">OR DIAL</span>
+                    <span class="social_info"><a class="color_animation" href="tel:0035725567001">(00357) 25 567001</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="map">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAbXbg_MeFJ5jwIUOvPQ69Ncgjdbk5Wf5s&q=today+restaurant,limassol+cyprus" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy;Today Restaurant 2017</p></div>
+           
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
 </html>
